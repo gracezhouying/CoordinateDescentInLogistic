@@ -20,3 +20,6 @@ The new value would be
 I will use function scipy.optimize.fmin 𝑗 to calculate it
 In scipy.optimize.fmin, Loss function have to be convex, thus it is possible to find minimum value and the corresponding w. 
 Loss function should also be differentiable, since coordinate select is depend on gradient calculation.
+
+## Comparison:
+Compare my method with the multi-logistic in sk-learn and random coordinate method.
