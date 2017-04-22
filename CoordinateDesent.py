@@ -2,14 +2,14 @@
 """
 Created on Sat Nov 12 15:24:00 2016
 
-@author: 颖
+@author: Ying Zhou
 """
 import numpy as np
 import pandas as pd
 import math
 
 # read data
-data = pd.read_csv(‘H:\cse 250b\wine.data.txt', header = None)
+data = pd.read_csv('wine.data.txt', header = None)
 # shuffle data
 data = data.iloc[np.random.permutation(len(data))]
                  
